@@ -7,6 +7,9 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<button><a href='/'>home</a></button>
+	<button><a href='/name'>name</a></button>
+	<button><a href='/cat'>cat</a></button>
 </svelte:head>
 
 {@render children()}
